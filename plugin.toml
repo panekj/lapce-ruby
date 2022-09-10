@@ -1,0 +1,14 @@
+name = "lapce-ruby"
+display-name = "Ruby (solargraph)"
+description = "Ruby for Lapce: powered by solargraph"
+version = "0.0.1"
+author = "panekj"
+repository = "panekj/lapce-ruby"
+wasm = "lapce-ruby.wasm"
+
+[configuration]
+language_id = "ruby"
+system_lsp = false
+
+[configuration.options.binary]
+args = ["stdio"]
